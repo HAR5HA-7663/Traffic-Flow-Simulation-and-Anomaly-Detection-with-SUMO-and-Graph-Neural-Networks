@@ -65,6 +65,3 @@ The GNN model should identify anomalies such as:
 ## Troubleshooting
 - **SUMO Errors**: Ensure SUMO is installed correctly, and paths in `sumo_cmd` are accurate.
 - **Dependency Issues**: Check `requirements.txt` for any missing libraries.
-
-## License
-This project is licensed under the MIT License. See `LICENSE` for details.

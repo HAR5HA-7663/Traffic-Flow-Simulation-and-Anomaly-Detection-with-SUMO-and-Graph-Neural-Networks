@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HAR5HA-7663-Traffic-Flow-Simulation-and-Anomaly-Detection-with-SUMO-and-Graph-Neural-Networks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Traffic-Flow-Simulation-and-Anomaly-Detection-with-SUMO-and-Graph-Neural-Networks" vcs="Git" />
   </component>
 </project>
