@@ -11,9 +11,9 @@ This project simulates traffic flow using **SUMO** (Simulation of Urban MObility
 - **Python Libraries**: Listed in `requirements.txt`
 
 To install required libraries, run:
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Project Workflow
 
@@ -34,21 +34,21 @@ pip install -r requirements.txt
 
 ## Running the Project
 1. **Simulate and Collect Traffic Data**:
-   \`\`\`bash
+   ```bash
    python src/data_collection.py
-   \`\`\`
+   ```
    This generates traffic data and saves it in `data/raw_traffic_data.csv`.
 
 2. **Preprocess Data for GNN**:
-   \`\`\`bash
+   ```bash
    python src/data_preprocessing.py
-   \`\`\`
+   ```
    This script converts traffic data into a graph format and saves it as `data/processed_graph.pt`.
 
 3. **Train the Anomaly Detection Model**:
-   \`\`\`bash
+   ```bash
    python src/main.py
-   \`\`\`
+   ```
    The `main.py` script integrates data collection, preprocessing, and model training for anomaly detection, outputting training loss per epoch.
 
 ## Expected Results
